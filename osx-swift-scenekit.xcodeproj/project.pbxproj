@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B224B8A01B418F6E000B1003 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B224B89F1B418F6E000B1003 /* AppDelegate.swift */; };
+		B224B8A21B418F6E000B1003 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B224B8A11B418F6E000B1003 /* GameView.swift */; };
+		B224B8A41B418F6E000B1003 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B224B8A31B418F6E000B1003 /* GameViewController.swift */; };
+		B224B8A61B418F6E000B1003 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = B224B8A51B418F6E000B1003 /* art.scnassets */; };
+		B224B8A81B418F6E000B1003 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B224B8A71B418F6E000B1003 /* Images.xcassets */; };
+		B224B8AB1B418F6E000B1003 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B224B8A91B418F6E000B1003 /* MainMenu.xib */; };
+		B224B8B71B418F6E000B1003 /* osx_swift_scenekitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B224B8B61B418F6E000B1003 /* osx_swift_scenekitTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B224B8B11B418F6E000B1003 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B224B8921B418F6E000B1003 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B224B8991B418F6E000B1003;
+			remoteInfo = "osx-swift-scenekit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B224B89A1B418F6E000B1003 /* osx-swift-scenekit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "osx-swift-scenekit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B224B89E1B418F6E000B1003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B224B89F1B418F6E000B1003 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B224B8A11B418F6E000B1003 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		B224B8A31B418F6E000B1003 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		B224B8A51B418F6E000B1003 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		B224B8A71B418F6E000B1003 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B224B8AA1B418F6E000B1003 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B224B8B01B418F6E000B1003 /* osx-swift-scenekitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "osx-swift-scenekitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B224B8B51B418F6E000B1003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B224B8B61B418F6E000B1003 /* osx_swift_scenekitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = osx_swift_scenekitTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B224B8971B418F6E000B1003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B224B8AD1B418F6E000B1003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B224B8911B418F6E000B1003 = {
+			isa = PBXGroup;
+			children = (
+				B224B89C1B418F6E000B1003 /* osx-swift-scenekit */,
+				B224B8B31B418F6E000B1003 /* osx-swift-scenekitTests */,
+				B224B89B1B418F6E000B1003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B224B89B1B418F6E000B1003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B224B89A1B418F6E000B1003 /* osx-swift-scenekit.app */,
+				B224B8B01B418F6E000B1003 /* osx-swift-scenekitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B224B89C1B418F6E000B1003 /* osx-swift-scenekit */ = {
+			isa = PBXGroup;
+			children = (
+				B224B89F1B418F6E000B1003 /* AppDelegate.swift */,
+				B224B8A11B418F6E000B1003 /* GameView.swift */,
+				B224B8A31B418F6E000B1003 /* GameViewController.swift */,
+				B224B8A51B418F6E000B1003 /* art.scnassets */,
+				B224B8A71B418F6E000B1003 /* Images.xcassets */,
+				B224B8A91B418F6E000B1003 /* MainMenu.xib */,
+				B224B89D1B418F6E000B1003 /* Supporting Files */,
+			);
+			path = "osx-swift-scenekit";
+			sourceTree = "<group>";
+		};
+		B224B89D1B418F6E000B1003 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B224B89E1B418F6E000B1003 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B224B8B31B418F6E000B1003 /* osx-swift-scenekitTests */ = {
+			isa = PBXGroup;
+			children = (
+				B224B8B61B418F6E000B1003 /* osx_swift_scenekitTests.swift */,
+				B224B8B41B418F6E000B1003 /* Supporting Files */,
+			);
+			path = "osx-swift-scenekitTests";
+			sourceTree = "<group>";
+		};
+		B224B8B41B418F6E000B1003 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B224B8B51B418F6E000B1003 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B224B8991B418F6E000B1003 /* osx-swift-scenekit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B224B8BA1B418F6E000B1003 /* Build configuration list for PBXNativeTarget "osx-swift-scenekit" */;
+			buildPhases = (
+				B224B8961B418F6E000B1003 /* Sources */,
+				B224B8971B418F6E000B1003 /* Frameworks */,
+				B224B8981B418F6E000B1003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "osx-swift-scenekit";
+			productName = "osx-swift-scenekit";
+			productReference = B224B89A1B418F6E000B1003 /* osx-swift-scenekit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B224B8AF1B418F6E000B1003 /* osx-swift-scenekitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B224B8BD1B418F6E000B1003 /* Build configuration list for PBXNativeTarget "osx-swift-scenekitTests" */;
+			buildPhases = (
+				B224B8AC1B418F6E000B1003 /* Sources */,
+				B224B8AD1B418F6E000B1003 /* Frameworks */,
+				B224B8AE1B418F6E000B1003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B224B8B21B418F6E000B1003 /* PBXTargetDependency */,
+			);
+			name = "osx-swift-scenekitTests";
+			productName = "osx-swift-scenekitTests";
+			productReference = B224B8B01B418F6E000B1003 /* osx-swift-scenekitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B224B8921B418F6E000B1003 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Todd Crone";
+				TargetAttributes = {
+					B224B8991B418F6E000B1003 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					B224B8AF1B418F6E000B1003 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = B224B8991B418F6E000B1003;
+					};
+				};
+			};
+			buildConfigurationList = B224B8951B418F6E000B1003 /* Build configuration list for PBXProject "osx-swift-scenekit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B224B8911B418F6E000B1003;
+			productRefGroup = B224B89B1B418F6E000B1003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B224B8991B418F6E000B1003 /* osx-swift-scenekit */,
+				B224B8AF1B418F6E000B1003 /* osx-swift-scenekitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B224B8981B418F6E000B1003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B224B8A61B418F6E000B1003 /* art.scnassets in Resources */,
+				B224B8A81B418F6E000B1003 /* Images.xcassets in Resources */,
+				B224B8AB1B418F6E000B1003 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B224B8AE1B418F6E000B1003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B224B8961B418F6E000B1003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B224B8A21B418F6E000B1003 /* GameView.swift in Sources */,
+				B224B8A41B418F6E000B1003 /* GameViewController.swift in Sources */,
+				B224B8A01B418F6E000B1003 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B224B8AC1B418F6E000B1003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B224B8B71B418F6E000B1003 /* osx_swift_scenekitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B224B8B21B418F6E000B1003 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B224B8991B418F6E000B1003 /* osx-swift-scenekit */;
+			targetProxy = B224B8B11B418F6E000B1003 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B224B8A91B418F6E000B1003 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B224B8AA1B418F6E000B1003 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B224B8B81B418F6E000B1003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B224B8B91B418F6E000B1003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B224B8BB1B418F6E000B1003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "osx-swift-scenekit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B224B8BC1B418F6E000B1003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "osx-swift-scenekit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B224B8BE1B418F6E000B1003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "osx-swift-scenekitTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/osx-swift-scenekit.app/Contents/MacOS/osx-swift-scenekit";
+			};
+			name = Debug;
+		};
+		B224B8BF1B418F6E000B1003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "osx-swift-scenekitTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/osx-swift-scenekit.app/Contents/MacOS/osx-swift-scenekit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B224B8951B418F6E000B1003 /* Build configuration list for PBXProject "osx-swift-scenekit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B224B8B81B418F6E000B1003 /* Debug */,
+				B224B8B91B418F6E000B1003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B224B8BA1B418F6E000B1003 /* Build configuration list for PBXNativeTarget "osx-swift-scenekit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B224B8BB1B418F6E000B1003 /* Debug */,
+				B224B8BC1B418F6E000B1003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B224B8BD1B418F6E000B1003 /* Build configuration list for PBXNativeTarget "osx-swift-scenekitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B224B8BE1B418F6E000B1003 /* Debug */,
+				B224B8BF1B418F6E000B1003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B224B8921B418F6E000B1003 /* Project object */;
+}
