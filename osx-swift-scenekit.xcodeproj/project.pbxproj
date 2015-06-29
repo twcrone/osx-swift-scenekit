@@ -14,6 +14,7 @@
 		B224B8A81B418F6E000B1003 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B224B8A71B418F6E000B1003 /* Images.xcassets */; };
 		B224B8AB1B418F6E000B1003 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B224B8A91B418F6E000B1003 /* MainMenu.xib */; };
 		B224B8B71B418F6E000B1003 /* osx_swift_scenekitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B224B8B61B418F6E000B1003 /* osx_swift_scenekitTests.swift */; };
+		B224B8C11B418FD3000B1003 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B224B8C01B418FD3000B1003 /* GameScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		B224B8B01B418F6E000B1003 /* osx-swift-scenekitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "osx-swift-scenekitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B224B8B51B418F6E000B1003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B224B8B61B418F6E000B1003 /* osx_swift_scenekitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = osx_swift_scenekitTests.swift; sourceTree = "<group>"; };
+		B224B8C01B418FD3000B1003 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				B224B89F1B418F6E000B1003 /* AppDelegate.swift */,
+				B224B8C01B418FD3000B1003 /* GameScene.swift */,
 				B224B8A11B418F6E000B1003 /* GameView.swift */,
 				B224B8A31B418F6E000B1003 /* GameViewController.swift */,
 				B224B8A51B418F6E000B1003 /* art.scnassets */,
@@ -217,6 +220,7 @@
 			files = (
 				B224B8A21B418F6E000B1003 /* GameView.swift in Sources */,
 				B224B8A41B418F6E000B1003 /* GameViewController.swift in Sources */,
+				B224B8C11B418FD3000B1003 /* GameScene.swift in Sources */,
 				B224B8A01B418F6E000B1003 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
