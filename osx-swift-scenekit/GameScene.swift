@@ -13,8 +13,8 @@ class GameScene : SCNScene {
         cameraNode.position = SCNVector3(x: 0, y: 0, z: 4)
         rootNode.addChildNode(cameraNode)
         
-        let helloWorld = "Hello World!"
-        var xPos = CGFloat(-5.0)
+        let helloWorld = "Lexmark"
+        var xPos = CGFloat(-3.0)
         let font = NSFont(name: "Menlo", size: 1.0)
         
         for character in helloWorld {
