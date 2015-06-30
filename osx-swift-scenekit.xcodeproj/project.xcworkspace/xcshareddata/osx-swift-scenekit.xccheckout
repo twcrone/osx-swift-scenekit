@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>80D4DB1B-1DCA-4844-B7B4-EE628C22E3E5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>osx-swift-scenekit</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CB134723268A1157169693B173741E1E8DBA85FE</key>
+		<string>github.com:twcrone/osx-swift-scenekit.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>osx-swift-scenekit.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CB134723268A1157169693B173741E1E8DBA85FE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:twcrone/osx-swift-scenekit.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CB134723268A1157169693B173741E1E8DBA85FE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CB134723268A1157169693B173741E1E8DBA85FE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>osx-swift-scenekit</string>
+		</dict>
+	</array>
+</dict>
+</plist>
