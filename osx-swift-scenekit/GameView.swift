@@ -35,6 +35,17 @@ class GameView: SCNView {
     var hitOld = SCNVector3Make(0, 0 ,0) // SCNVector3Zero
 
     override func keyDown(theEvent: NSEvent) {
+        let gameScene = scene as GameScene
+        
+        let key = theEvent.keyCode
+        
+        switch key{
+        case 123: gameScene.moveSphere("left")
+        case 124: gameScene.moveSphere("right")
+        case 125: gameScene.moveSphere("backward")
+        case 126: gameScene.moveSphere("forward")
+        default:  gameScene.moveSphere("up")
+        }
     }
     
     // mark an object (= selection)

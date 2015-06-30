@@ -48,8 +48,20 @@ class GameScene : SCNScene {
         super.init(coder: aDecoder)
     }
     
-    func moveSphere() {
-        sphere.physicsBody?.velocity = SCNVector3(x: 0.0, y: 0.0, z: 25.0)
+    func moveSphere(direction: NSString) {
+        var x: CGFloat = 0.0
+        var y: CGFloat = 0.0
+        var z:CGFloat = 0.0
+        
+        switch direction {
+            case "left": x = -50
+            case "right": x = 50
+            case "forward": z = -50
+            case "backward": z = 50
+            case "up": y = 50
+            default: y = 0
+        }
+        sphere.physicsBody?.applyForce(SCNVector3(x: x, y: y, z: z), atPosition: SCNVector3Zero, impulse: true)
     }
     
     func addSphereNode() {
