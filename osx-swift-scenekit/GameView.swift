@@ -33,6 +33,9 @@ class GameView: SCNView {
     var mark : SCNNode? = nil
     var selection : SCNHitTestResult? = nil
     var hitOld = SCNVector3Make(0, 0 ,0) // SCNVector3Zero
+
+    override func keyDown(theEvent: NSEvent) {
+    }
     
     // mark an object (= selection)
     override func mouseDown(theEvent: NSEvent) {
