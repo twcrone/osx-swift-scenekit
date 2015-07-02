@@ -1,6 +1,5 @@
 import SceneKit
 
-
 func round(val: SCNVector3) -> SCNVector3 {
     return SCNVector3(x: round(val.x), y: round(val.y), z: round(val.z))
 }

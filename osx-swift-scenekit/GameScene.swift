@@ -39,7 +39,6 @@ class GameScene : SCNScene {
             xPos += 0.66
         }
         
-        
         addSphereNode()
         addFloorNode()
     }
@@ -49,19 +48,18 @@ class GameScene : SCNScene {
     }
     
     func moveSphere(direction: NSString) {
-        var x: CGFloat = 0.0
-        var y: CGFloat = 0.0
-        var z:CGFloat = 0.0
-        
+        let factor: CGFloat = 5.0
+        let negativeFactor: CGFloat = -5.0
+        let velocity = sphere.physicsBody?.velocity
         switch direction {
-            case "left": x = -50
-            case "right": x = 50
+            case "left": velocity.x += negativeFactor
+            case "right": velocity.x += factor
             case "forward": z = -50
             case "backward": z = 50
             case "up": y = 50
             default: y = 0
         }
-        sphere.physicsBody?.applyForce(SCNVector3(x: x, y: y, z: z), atPosition: SCNVector3Zero, impulse: true)
+        
     }
     
     func addSphereNode() {
